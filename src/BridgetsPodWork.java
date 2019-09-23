@@ -23,8 +23,7 @@ public class BridgetsPodWork {
     }
     // We'll say that a number is "teen" if it is in the range 13..19 inclusive. Given 3 int values, return true if 1 or more of them are teen.
      static boolean hasTeen(int a, int b, int c) {
-        // Here it is written as one big expression,
-        // vs. a series of if-statements.
+
         return (a >= 13 && a <= 19) ||
                 (b >= 13 && b <= 19) ||
                 (c >= 13 && c <= 19);
