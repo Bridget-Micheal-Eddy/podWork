@@ -42,10 +42,6 @@ public class MichaelPodWork {
         } else if (grade <= 66 && grade >= 60) {
             gradeLetter = "D";
 
-            if (grade <= 69 && grade >= 67 ){
-                gradeLetter = "D+";
-            }
-
         } else if (grade <= 59 && grade >= 0) {
             gradeLetter = "F";
         }
